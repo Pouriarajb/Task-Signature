@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Signuture";
+    src: url(./assets/fonts/Montserrat-Medium.woff);
+}
+
+body{
+    font-family: "Signuture";
+}
+
+   
+
+.flex {
+    display: flex;
+    margin-top: 100px;
+}
+
+.sig-left {
+    background-image: url(./assets/images/left.png);
+    background-repeat: no-repeat;
+padding: 35px 5px;
+    background-position: bottom;
+}
+
+.sig-right {
+    background-image: url(./assets/images/right.png);
+    background-repeat: no-repeat;
+    padding: 35px 5px;
+    background-position: top;
+}
+.img-fulit img {
+    position: relative;
+    left: -15px;
+    top: 60px;
+    width: 288px;
+}
+.img-logo img {
+    z-index: 99;
+    position: absolute;
+    top: 390px;
+    width: 170px;
+    height: 170px;
+    left: 420px;
+}
+.img-fulit , .img-logo {
+    display: inline;
+}
+.sig-right>h2{
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+}
+.sig-right>h3{
+    text-align: left;
+    font-weight: 900;
+    margin-left: 90px;
+    font-size: 25px;
+}
+.textlight {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 25px 50px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    margin-left: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5;
+    width: 75%;
+}
+.bx{
+    font-size: 25px;
+}
+
+hr{
+    width: 68% !important;
+    height: 10px;
+    color: black;
+    text-align: center;
+    margin-left: 35px;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
